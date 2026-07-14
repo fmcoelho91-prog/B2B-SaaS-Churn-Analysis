@@ -60,7 +60,7 @@ Os resultados da análise foram apresentados através de um dashboard desenvolvi
 
 Visão executiva dos principais indicadores de negócio, incluindo taxa de churn, receita em risco e distribuição dos clientes.
 
-![Executive Overview](images/executive_overview.png)
+![Executive Overview](https://github.com/fmcoelho91-prog/B2B-SaaS-Churn-Analysis/blob/main/Dashboard%201.png)
 
 ---
 
@@ -68,7 +68,7 @@ Visão executiva dos principais indicadores de negócio, incluindo taxa de churn
 
 Análise dos segmentos com maior risco de abandono através do cruzamento de contratos, serviços, métodos de pagamento e perfis de clientes.
 
-![Customer Segmentation](images/customer_segmentation.png)
+![Customer Segmentation](https://github.com/fmcoelho91-prog/B2B-SaaS-Churn-Analysis/blob/main/Dashboard%202.png)
 
 ---
 
@@ -76,7 +76,7 @@ Análise dos segmentos com maior risco de abandono através do cruzamento de con
 
 Quantificação do impacto financeiro do churn e apresentação de recomendações estratégicas orientadas para a retenção de clientes.
 
-![Financial Impact](images/financial_impact.png)
+![Financial Impact](https://github.com/fmcoelho91-prog/B2B-SaaS-Churn-Analysis/blob/main/Dashboard%203.png)
 
 ---
 
