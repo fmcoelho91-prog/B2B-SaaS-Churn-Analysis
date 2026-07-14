@@ -1,15 +1,14 @@
+# 📉 B2B SaaS Customer Churn Analysis Dashboard
 
-# 📉 B2B SaaS Customer Churn Analysis
-
-##  Project Overview
+## Resumo do Projecto
 
 Este projeto foi desenvolvido com o objetivo de analisar o abandono de clientes (*Customer Churn*) numa empresa B2B do setor das telecomunicações/SaaS.
 
-Através de uma análise exploratória de dados (EDA), foram identificados os principais fatores associados ao churn, quantificado o impacto financeiro da perda de clientes e propostas recomendações para melhorar a retenção.
+Através de uma análise exploratória de dados (EDA), foram identificados os principais fatores associados ao churn, quantificado o impacto financeiro da perda de clientes e desenvolvidas recomendações estratégicas para melhorar a retenção e proteger a receita recorrente da empresa.
 
 ---
 
-#  Business Questions
+# Questões de Negócio
 
 O projeto procurou responder às seguintes questões:
 
@@ -21,7 +20,7 @@ O projeto procurou responder às seguintes questões:
 
 ---
 
-#  Ferramentas Utilizadas
+#  Tecnologia Utilizada
 
 - Python
 - Pandas
@@ -31,74 +30,99 @@ O projeto procurou responder às seguintes questões:
 
 ---
 
-#  Processo de Análise
+# Processo de Análise
 
-### Preparação dos Dados
+## Preparação dos dados
 
 - Limpeza e validação dos dados
 - Tratamento de valores inconsistentes
-- Criação de novas variáveis (Feature Engineering)
+- Feature Engineering
 - Segmentação de clientes por nível de faturação
 
-### Análise Exploratória
+## Análise Exploratória
 
 Foram analisadas diversas variáveis para identificar padrões de abandono:
 
 - Tipo de contrato
 - Serviços contratados
 - Apoio Técnico
-- Tempo de permanência
+- Tempo de permanência (Tenure)
 - Receita mensal
 - Segmentação de clientes
 
-### Dashboard
+---
 
-Os resultados foram apresentados através de um dashboard interativo em Power BI para facilitar a análise dos principais indicadores de negócio.
+# 📊 Dashboard Interactivo
+
+Os resultados da análise foram apresentados através de um dashboard desenvolvido em **Power BI**, dividido em três páginas complementares.
+
+## Executive Overview
+
+Visão executiva dos principais indicadores de negócio, incluindo taxa de churn, receita em risco e distribuição dos clientes.
+
+![Executive Overview](images/executive_overview.png)
 
 ---
 
-#  Principais Descobertas
+## Customer Segmentation
 
-##  Taxa Global de Churn
+Análise dos segmentos com maior risco de abandono através do cruzamento de contratos, serviços, métodos de pagamento e perfis de clientes.
 
-A empresa apresenta uma taxa global de abandono de **26,5%**, indicando uma oportunidade significativa para melhorar a retenção de clientes.
-
----
-
-##  Impacto Financeiro
-
-Os clientes que abandonaram o serviço representam uma perda estimada de **139.130,85 € de receita recorrente mensal (MRR)**, equivalente a mais de **1,6 milhões de euros por ano**.
+![Customer Segmentation](images/customer_segmentation.png)
 
 ---
 
-##  Segmentos de Maior Risco
+## Financial Impact & Recommendations
 
-O segmento **Enterprise** apresenta a maior taxa de abandono (**33%**), comprometendo uma parte significativa da receita da empresa.
+Quantificação do impacto financeiro do churn e apresentação de recomendações estratégicas orientadas para a retenção de clientes.
 
-Por outro lado, o segmento **Starter** demonstrou uma taxa de churn bastante inferior (**11%**).
-
----
-
-##  O impacto do Apoio Técnico
-
-Os clientes com contratos mensais (*Month-to-Month*) e sem serviço de **Tech Support** apresentam uma taxa de churn superior a **50%**.
-
-Quando existe Apoio Técnico, essa taxa reduz-se para aproximadamente **15%**, evidenciando a importância deste serviço na retenção de clientes.
+![Financial Impact](images/financial_impact.png)
 
 ---
 
-#  Recomendações
+# Principais Descobertas
+
+## 📉 Global Churn Rate
+
+A empresa apresenta uma taxa global de abandono de **26,5%**, evidenciando uma oportunidade significativa para melhorar a retenção de clientes.
+
+---
+
+##  Financial Impact
+
+Os clientes que abandonaram o serviço representam uma perda estimada de **139.130,85 € de Receita Recorrente Mensal (MRR)**, equivalente a mais de **1,6 milhões de euros por ano**.
+
+---
+
+## Segmento de Maior Risco
+
+O segmento **Enterprise** apresenta a maior taxa de churn (**33%**), comprometendo uma parte significativa da receita da empresa.
+
+Em contrapartida, o segmento **Starter** demonstrou uma taxa de abandono bastante inferior (**11%**).
+
+---
+
+## Impacto do Apoio Tecnico
+
+Os clientes com contratos **Month-to-Month** e sem serviço de **Tech Support** apresentam uma taxa de churn superior a **50%**.
+
+Quando existe Apoio Técnico, essa taxa reduz-se para aproximadamente **15%**, demonstrando a forte correlação entre suporte ao cliente e retenção.
+
+---
+
+#  Recomendações Estratégicas
 
 Com base na análise realizada, foram propostas as seguintes ações:
 
-- Reforçar estratégias de retenção para clientes Enterprise.
-- Promover a adesão ao serviço de Tech Support nos primeiros meses de contrato.
-- Desenvolver campanhas direcionadas para clientes com contratos Month-to-Month.
-- Monitorizar regularmente os indicadores de churn através de dashboards.
+- Priorizar campanhas de retenção para clientes Enterprise.
+- Promover a adesão ao serviço de Tech Support durante os primeiros meses de contrato.
+- Incentivar a migração de contratos Month-to-Month para contratos anuais.
+- Monitorizar continuamente os principais indicadores de churn através de dashboards.
+- Desenvolver modelos preditivos para identificar clientes em risco antes do cancelamento.
 
 ---
 
-# Competências Demonstradas
+#  Competências Demonstradas
 
 - Data Cleaning
 - Exploratory Data Analysis (EDA)
@@ -107,6 +131,8 @@ Com base na análise realizada, foram propostas as seguintes ações:
 - Churn Analysis
 - Financial Analysis
 - Business Intelligence
+- Business Analytics
+- Data Storytelling
 - Python
 - Pandas
 - NumPy
@@ -114,7 +140,7 @@ Com base na análise realizada, foram propostas as seguintes ações:
 
 ---
 
-# 📂 Estrutura do Repositório
+# 📂 Repository Structure
 
 ```text
 📁 data/
@@ -127,7 +153,16 @@ Com base na análise realizada, foram propostas as seguintes ações:
     Churn_Dashboard.pbix
 
 📁 images/
-    dashboard.png
+    executive_overview.png
+    customer_segmentation.png
+    financial_impact.png
 
 📄 README.md
+```
+
+---
+
+##  About
+
+Este projeto demonstra um fluxo completo de análise de dados, desde a preparação e exploração dos dados em Python até à criação de dashboards executivos em Power BI, convertendo informação analítica em recomendações de negócio orientadas para a redução do churn e aumento da retenção de clientes.
 ```
