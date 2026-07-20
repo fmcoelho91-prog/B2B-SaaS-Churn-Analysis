@@ -123,7 +123,6 @@ Visão executiva dos principais indicadores de negócio, incluindo:
 * Distribuição dos clientes por situação.
 
 ![Executive Overview](https://github.com/fmcoelho91-prog/Telecommunications-Customer-Churn/blob/main/Dashboard%201.png)
-
 ---
 
 ## Customer Segmentation
